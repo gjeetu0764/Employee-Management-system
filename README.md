@@ -70,7 +70,7 @@ db.password=your_password ```
 
 2. Follow the on-screen instructions to manage employees.
   **Project Structure**
-  employee-management-system/
+``` employee-management-system/
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -95,10 +95,11 @@ db.password=your_password ```
 ├── README.md
 ├── pom.xml
 └── LICENSE
-
+```
 
 ## Contributing
   If you want to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+  
 ## License
   This project is licensed under the MIT License - see the LICENSE file for details.
 
