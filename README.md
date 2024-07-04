@@ -48,8 +48,8 @@ CREATE TABLE employees (
     department VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     salary DECIMAL(10, 2) NOT NULL
-); ```
-
+); 
+```
 ### Project Setup
 1. Clone the repository:
   ```git clone https://github.com/your-username/employee-management-system.git
@@ -63,6 +63,7 @@ db.password=your_password ```
 3. Build the project using Maven:
   ```mvn clean install ```
 
+```
 ## Usage
 1. Run the application:
   ```mvn exec:java -Dexec.mainClass="com.example.employeemanagement.Main" ```
@@ -135,3 +136,4 @@ Here is a basic example of what your `pom.xml` might look like:
         </dependency>
     </dependencies>
 </project>
+```
