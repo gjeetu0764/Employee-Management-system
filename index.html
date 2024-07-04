@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Employee Management System</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Project Overview</h2>
+            <p>The Employee Management System is a Java application developed using Maven.
+              It provides functionalities to manage employees, including adding, updating, deleting, and viewing employee details.</p>
+        </section>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Add new employees</li>
+                <li>Update existing employee details</li>
+                <li>Delete employees</li>
+                <li>View all employees</li>
+                <li>Search employees by ID or name</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Java</li>
+                <li>Maven</li>
+                <li>JDBC</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Setup</h2>
+            <p>Follow these steps to set up and run the project:</p>
+            <ol>
+                <li>Clone the repository:</li>
+                <pre><code>git clone https://github.com/your-username/employee-management-system.git
+cd employee-management-system
+                </code></pre>
+                <li>Configure the database connection in <code>src/main/resources/db.properties</code>:</li>
+                <pre><code>db.url=jdbc:mysql://localhost:3306/employee_management
+db.username=root
+db.password=your_password
+                </code></pre>
+                <li>Build the project using Maven:</li>
+                <pre><code>mvn clean install
+                </code></pre>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jitendra Gupta, All rights reserved.</p>
+    </footer>
+</body>
+</html>
